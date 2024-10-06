@@ -18,6 +18,7 @@
 		2349DE812CB1C9E400AC1D4F /* PlayerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2349DE802CB1C9E400AC1D4F /* PlayerPresenter.swift */; };
 		2349DE832CB1D35300AC1D4F /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2349DE822CB1D35300AC1D4F /* DIContainer.swift */; };
 		2349DE852CB2EC9400AC1D4F /* PlayerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2349DE842CB2EC9400AC1D4F /* PlayerRouter.swift */; };
+		2349DE872CB315F600AC1D4F /* TrackDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2349DE862CB315F600AC1D4F /* TrackDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		2349DE802CB1C9E400AC1D4F /* PlayerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerPresenter.swift; sourceTree = "<group>"; };
 		2349DE822CB1D35300AC1D4F /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
 		2349DE842CB2EC9400AC1D4F /* PlayerRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerRouter.swift; sourceTree = "<group>"; };
+		2349DE862CB315F600AC1D4F /* TrackDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				2349DE802CB1C9E400AC1D4F /* PlayerPresenter.swift */,
 				2349DE7C2CB1C90C00AC1D4F /* PlayerEntity.swift */,
 				2349DE842CB2EC9400AC1D4F /* PlayerRouter.swift */,
+				2349DE862CB315F600AC1D4F /* TrackDetailViewController.swift */,
 			);
 			path = PlayerModule;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 				2349DE6A2CAF21CF00AC1D4F /* PlayerViewController.swift in Sources */,
 				2349DE832CB1D35300AC1D4F /* DIContainer.swift in Sources */,
 				2349DE852CB2EC9400AC1D4F /* PlayerRouter.swift in Sources */,
+				2349DE872CB315F600AC1D4F /* TrackDetailViewController.swift in Sources */,
 				2349DE662CAF21CF00AC1D4F /* AppDelegate.swift in Sources */,
 				2349DE682CAF21CF00AC1D4F /* SceneDelegate.swift in Sources */,
 				2349DE7A2CAF259200AC1D4F /* YouLikeMusicVC.swift in Sources */,

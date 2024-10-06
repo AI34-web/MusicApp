@@ -8,7 +8,7 @@
 import UIKit
 
 protocol PlayerPresenterProtocol: AnyObject {
-    func viewDidLoad()
+    func toTrackDetail(artist: String, image: UIImage)
 }
 
 /*
@@ -33,7 +33,7 @@ class PlayerPresenter: PlayerPresenterProtocol {
         self.router = router
     }
     
-    func viewDidLoad() {
-        
+    func toTrackDetail(artist: String, image: UIImage) {
+        router.toTrackDetail(artist: artist, image: image)
     }
 }

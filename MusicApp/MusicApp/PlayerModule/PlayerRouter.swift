@@ -5,10 +5,10 @@
 //  Created by Artyom Ivanov on 06.10.2024.
 //
 
-import Foundation
+import UIKit
 
 protocol PlayerRouterProtocol {
-    func presentTrackDetail()
+    func toTrackDetail(artist: String, image: UIImage)
 }
 
 
@@ -27,5 +27,8 @@ class PlayerRouter: PlayerRouterProtocol {
         self.viewController = viewController
     }
     
-    func presentTrackDetail() { }
+    func toTrackDetail(artist: String, image: UIImage) {
+        let viewController = TrackDetailViewController(artist: artist, image: image)
+        self.viewController?.navigationController?.pushViewController(viewController, animated: true)
+    }
 }
